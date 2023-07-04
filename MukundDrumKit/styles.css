@@ -1,0 +1,115 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #141415;
+}
+
+.background{
+  background-image: url('/images/concertview.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+  font-family: "Arial";
+  /* text-shadow: 3px 0 #ebe9cf; */
+
+}
+
+h3{
+  color: white;
+  font-family: "Arial";
+}
+#ro{
+  color: red;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+  background: url('images/tom1.png')no-repeat;
+  cursor: pointer;
+}
+
+.a {
+  background: url('images/tom2.png')no-repeat;
+  cursor: pointer;
+}
+
+.s {
+  background: url('images/tom3.png')no-repeat;
+  cursor:pointer;
+}
+
+.d {
+  background:url('images/tom4.png')no-repeat;
+  cursor:pointer;
+}
+
+.j {
+  background:url('images/snare.png')no-repeat;
+  cursor:pointer;
+}
+
+.k {
+  background:url('images/crash.png')no-repeat;
+  cursor:pointer;
+}
+
+.l {
+  background:url('images/kick.png')no-repeat;
+  cursor:pointer;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid black;
+  font-size: 5rem;
+  font-family: 'Arial', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: red;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+
+
+
