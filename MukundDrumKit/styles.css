@@ -10,7 +10,7 @@ body {
 }
 
 .background{
-  background-image: url('./images/concertview.png');
+  background-image: url('images/concertview.png');
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
